@@ -1,0 +1,8 @@
+def greet(name="Learner"):
+    print(f"Hello, {name} !")
+greet("Laiba")
+greet()
+
+def student(name, age):
+    print(f"My name is {name}, and my age is {age} ")
+student(age = 21 , name = "Laiba")
