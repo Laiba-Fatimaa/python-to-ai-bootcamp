@@ -1,0 +1,21 @@
+def check_grades(marks):
+    total = sum(marks)
+    avg = total / len(marks)
+    
+    if avg > 90:
+        print("Grade: A")
+    elif avg > 70:
+        print("Grade: B")
+    elif avg > 50:
+        print("Grade: C")
+    else:
+        print("Grade: Fail")
+        
+    for mark in marks:
+        print(mark)
+        
+    print("Total:", total)
+    print("Avg:", avg)
+
+student_marks = [60, 75, 85, 90]
+check_grades(student_marks)
