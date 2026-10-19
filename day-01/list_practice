@@ -1,0 +1,27 @@
+subjects = ["AI", "ICT", "DSA"]
+print(subjects[2])
+
+subjects[2] = "PF"
+print(subjects[2])
+
+print(len(subjects))
+print("maths" not in subjects)
+subjects.append("Maths")
+print(subjects)
+subjects.extend(["Calculus", "Stats", "Prob"])
+print(subjects)
+
+# num = [10,30,20]
+# sorted_num = sorted(num)
+# print(sorted_num)
+
+student = {
+    "name": "Laiba",
+    "age": 21,
+    "gpa": 3.80}
+for key, value in student.items():
+print(key, ":", value)
+    
+print(student.get("age"))
+print(student.keys())
+print(student.values())
