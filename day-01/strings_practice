@@ -1,0 +1,15 @@
+text = "This is my day1 practice"
+print(text[3])
+print(text[-1])
+print(text[0:8])
+print(text)
+
+print(text.lower())
+print(text.upper())
+print(text.title())
+st = "    a    "
+print(st.strip())
+print(st.lstrip())
+print(st.rstrip())
+
+print(text.replace("day1", "day2"))
