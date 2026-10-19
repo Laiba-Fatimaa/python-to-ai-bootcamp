@@ -1,0 +1,25 @@
+print("hello world!")
+print(var)
+print (" laiba1")
+print (" laiba1")
+print (" laiba1")
+int var = 1;
+var= "ME"
+
+##datatypes
+int i= 1.5
+print(type(i))
+
+
+## num = int(input("enter a value: "))
+## if num > 0:
+##     print("positive")
+## elif num < 0:
+##     print("negitive number")
+## else:
+##     print("the number is ZERO!")
+
+
+
+  for i in range(1,10,2):
+       print(i)
