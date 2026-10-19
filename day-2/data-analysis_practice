@@ -11,4 +11,4 @@ print("Passengers aged 20-29:", len(age_group))
 survivors = df[df["Survived"] == 1]
 
 print("Male and female survivors:")
-print(survivors["Gender"].value_counts())
+print(survivors["Sex"].value_counts())
