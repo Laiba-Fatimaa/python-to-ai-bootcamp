@@ -1,0 +1,14 @@
+import pandas as pd
+df = pd.read_csv("titanic.csv")
+  
+# Query 1: average fare paid by the passengers
+average_fare = df["Fare"].mean()
+print("Average fare:", average_fare)
+
+print("Passengers aged 20-29:", len(age_group))
+
+# Query 2: Count male and female survivors
+survivors = df[df["Survived"] == 1]
+
+print("Male and female survivors:")
+print(survivors["Gender"].value_counts())
